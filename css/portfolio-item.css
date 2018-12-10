@@ -13,3 +13,17 @@ body {
     padding-top: 56px;
   }
 }
+
+.navbar{
+  background-color:#e60073; /*darkpink*/
+}
+.navbar-brand {
+  color: #fff;
+}
+.nav-link {
+  color: #fff;
+}
+
+.py{
+  background-color: #e60073; /*darkpink*/
+}
