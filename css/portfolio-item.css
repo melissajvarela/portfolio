@@ -3,27 +3,23 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
  */
-
-body {
-  padding-top: 54px;
+.container-fluid{
+  padding:0;
+  margin:0;
 }
+
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    padding-top: 0px;
+    font-family: 'Abril Fatface', cursive;;
   }
-}
-
-.navbar{
-  background-color:#e60073; /*darkpink*/
-}
-.navbar-brand {
-  color: #fff;
-}
-.nav-link {
-  color: #fff;
-}
-
-.py{
-  background-color: #e60073; /*darkpink*/
+  /* font-family: 'Cherry Swash', cursive;
+  font-family: 'Abril Fatface', cursive; */
+#info {
+  background-image: url('../img/purpledots.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top:50px;
+  color:#fff;
 }

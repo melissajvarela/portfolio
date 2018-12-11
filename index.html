@@ -11,6 +11,10 @@
     <title>Melissa's Portfolio</title>
 
 
+ <!-- GOOGLE FONTS -->
+
+ <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cherry+Swash" rel="stylesheet">
+
     <!-- social media -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
@@ -33,39 +37,34 @@
     <link href="css/portfolio-item.css" rel="stylesheet">
 
   </head>
-
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Melissa Varela</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed top" style="background-color: #6351ce;;">
+      <div class="container-fluid"
+    <a class="navbar-brand" href="#">Melissa Varela</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#about">About Me</a>
+        <a class="nav-item nav-link" href="#info">Skills</a>
+        <a class="nav-item nav-link" href="#projects">Projects</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
       </div>
-    </nav>
+    </div>
+  </div>
+  </nav>
+
+
+
+
 
     <!-- Page Content -->
-    <div class="container">
+    <div id="about" class="container">
 
       <!-- Portfolio Item Heading -->
       <h1 class="my-4">Hello
@@ -74,51 +73,67 @@
 
       <!-- Portfolio Item Row -->
       <div class="row">
-
         <div class="col-md-8">
           <img class="img-fluid" src="img/codingcoffee.jpg" alt="code on computer and a cup of coffee">
         </div>
 
         <div class="col-md-4">
           <h3 class="my-3">About Me</h3>
-          <p>Thanks for coming to my page! I am Melissa Varela and I am making my dreams come true with CODING! Yes, coding. It is something I enjoy doing and hopefully I can make a future out of it! With just a little more practice and a new pair of glasses, I hope to be a webpage developer one day! </p>
-          <h3 class="my-3">Contact Me</h3>
-          <ul>
-            <li>facebook</li>
-            <li>github</li>
-            <li>snapchat</li>
-            <li>twitter</li>
-          </ul>
+          <p>Thanks for coming to my page! I am Melissa Varela and I am making my dreams come true with CODING! Yes, coding. It is something I enjoy doing and hopefully I can make a future out of it. With just a little more practice and a new pair of reading glasses, I hope to be a webpage developer one day! When I am not coding, I enjoy spending my time with my family, especially with my dog, Bruno. And instead of a picture of me on my page, I thought you would much rather see a picture of Bruno. Right down below! </p>
+            <img class="img-fluid" src="img/bruno.jpg" alt="pic of a pug">
         </div>
 
       </div>
       <!-- /.row -->
 
+      <!-- Review Section -->
+
+      <div id="info" class="container-fluid">
+      	<div class="row text-center">
+      		<div class="col-md-12 center">
+      			<h1>Look What I can Do!</h1>
+      			<div class="list">
+
+              <li>HTML & CSS</li>
+              <li>Bootstrap Knowledge</li>
+              <li>EMMET Coding</li>
+              <li>Use of Photoshop</li>
+              <li>Graduate of Websites for Beginners Geekwise Course</li>
+              <li>Future Graduate of Mobile Friendly Geekwise Course</li>
+              <li>and the ability to crack a joke or two</li>
+            </div>
+      		</div>
+      	</div>
+      </div>
+      <!-- Review Section END-->
+
+
+
+
       <!-- Related Projects Row -->
       <h3 class="my-4">My Projects</h3>
 
-      <div class="row">
-
+      <div id ="projects" class="row">
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
+          <a href="https://melissajvarela.github.io/mfw-pet-store/">
             <img class="img-fluid" src="img/petstoresite.png" alt="clip of pet store site">
           </a>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
+          <a href="https://melissajvarela.github.io/mfw-restaurante/">
             <img class="img-fluid" src="img/restaurantsite.png" alt="clip of restaurante site">
           </a>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
+          <a href="https://melissajvarela.github.io/city-of-lemoore/">
             <img class="img-fluid" src="img/citysite.png" alt="clip of city of lemoore site">
           </a>
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
+          <a href="https://melissajvarela.github.io/melissavarela/">
             <img class="img-fluid" src="img/halloweensite.png" alt="clip of halloween site">
           </a>
         </div>
@@ -130,7 +145,10 @@
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="py 5">
+
+
+    <footer class="page-footer font-small unique-color-dark">
+    <div style="background-color: #6351ce;">
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Melissa Varela, 2018</p>
         <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
@@ -143,6 +161,21 @@
       </div>
       <!-- /.container -->
     </footer>
+
+    <!-- Footer -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
