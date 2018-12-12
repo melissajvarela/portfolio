@@ -9,13 +9,37 @@
 }
 
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 0px;
-    font-family: 'Abril Fatface', cursive;;
-  }
+
   /* font-family: 'Cherry Swash', cursive;
   font-family: 'Abril Fatface', cursive; */
+
+
+/*   when changing navbar from bootstrap, have to apply to all code to override bootstrap code */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link {
+  color: #990066;
+
+}
+
+.my-4 {
+  color: #990066;
+  text-align: left;
+}
+
+.img-fluid {
+  padding-top:25px;
+}
+
+  .my-3 {
+ font-family:'Cherry Swash', cursive;
+ padding-top:0px;
+ color:#990066;
+}
+ .img-about {
+   height:150px;
+   width:200px;
+ }
+
+
 #info {
   background-image: url('../img/purpledots.jpg');
   background-size: cover;
@@ -23,3 +47,27 @@
   margin-top:50px;
   color:#fff;
 }
+
+
+  @media (max-width: 988px) {
+    .img-about {
+      height:350px;
+      width:350px;
+    }
+    .about {
+      font-size: 2em;
+    }
+    .my-3 {
+      font-size:3em;
+    }
+    .my-4 {
+      font-size:4em;
+    }
+  }
+
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0px;
+      font-family: 'Abril Fatface', cursive;
+      text-align:center;
+    }
