@@ -9,20 +9,26 @@
 }
 
 
-
-  /* font-family: 'Cherry Swash', cursive;
-  font-family: 'Abril Fatface', cursive; */
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Kurale', serif;
 
 
 /*   when changing navbar from bootstrap, have to apply to all code to override bootstrap code */
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link {
-  color: #990066;
-
+  color: #fff;
+  font-family: 'Kurale', serif;
 }
 
+.nav li a:hover{
+  background-color: #e60073 ;
+}
+
+
 .my-4 {
-  color: #990066;
+  color: #e60073;
   text-align: left;
+  font-family: 'Kurale', serif;
 }
 
 .img-fluid {
@@ -30,9 +36,9 @@
 }
 
   .my-3 {
- font-family:'Cherry Swash', cursive;
+font-family: 'Kurale', serif;
  padding-top:0px;
- color:#990066;
+ color: #e60073;
 }
  .img-about {
    height:150px;
@@ -41,12 +47,35 @@
 
 
 #info {
-  background-image: url('../img/purpledots.jpg');
+  background-image: url('../img/coffeebg.jpg');
   background-size: cover;
   background-position: center;
-  margin-top:50px;
+  margin-top:30px;
   color:#fff;
+  height:550px;
 }
+
+.list {
+padding-top:80px;
+font-size:30px;
+color: #fff;;
+}
+
+#contact {
+color:#e60073;
+font-family: 'Kurale', serif;
+}
+
+
+
+
+.copyright, .fa-facebook-square, .fa-github, .fa-twitter-square, .fa-snapchat-square {
+  color: #e60073;
+
+}
+
+
+
 
 
   @media (max-width: 988px) {
@@ -68,6 +97,6 @@
   @media (min-width: 992px) {
     body {
       padding-top: 0px;
-      font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto', sans-serif;
       text-align:center;
     }
